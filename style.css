@@ -137,6 +137,44 @@
         justify-content: space-between;
     }
     
+    .main_apply {
+        gap: 30px;
+        margin-top: 157px;
+        margin-bottom: 258px;
+    }
+    
+    .apply_info {
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
+        margin-top: 117px;
+        margin-bottom: 117px;
+    }
+    
+    .apply_title {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .apply_text {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 160%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
     .grid {
         display: grid;
         justify-content: space-between;
