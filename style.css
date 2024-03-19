@@ -238,3 +238,31 @@
         letter-spacing: 0%;
         text-align: center;
     }
+    
+    .main_about {
+        display: flex;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+        align-items: center;
+        margin-bottom: 221px;
+        margin-top: 241px;
+    }
+    
+    .about_title {
+        color: rgb(255, 255, 255);
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .about_text {
+        margin-top: 20px;
+    }
