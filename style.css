@@ -11,6 +11,7 @@
     
     body {
         background-color: #08101e;
+        font-family: "Open Sans", sans-serif;
     }
     
     a {
@@ -27,9 +28,14 @@
     }
     
     .container {
-        width: 1146.45px;
+        max-width: 1146px;
         margin: 0 auto;
     }
+    /* .center {
+        padding-left: calc(50% - 573px);
+        padding-right: calc(50% - 573px);
+        ;
+     */
     
     .nav {
         display: flex;
@@ -131,6 +137,8 @@
         background-color: #FFF;
         border: 2px solid darkviolet;
     }
+    
+    .top_logo {}
     
     .flex {
         display: flex;
@@ -265,4 +273,56 @@
     
     .about_text {
         margin-top: 20px;
+    }
+    
+    @media(max-width:1024px) {
+        .info_flex {
+            display: flex;
+            gap: 0px 64px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .title {
+            color: rgb(255, 255, 255);
+            font-family: Open Sans;
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 130%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .subtitle {
+            color: rgb(58, 104, 184);
+            font-family: Open Sans;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        .text {
+            color: rgb(255, 255, 255);
+            font-family: Open Sans;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .top_logo {
+            width: 414px;
+            height: 415px;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 128px 0px;
+        }
+        .item4 {
+            grid-column: span 1;
+            grid-row: span 1;
+            gap: 60px;
+        }
     }
