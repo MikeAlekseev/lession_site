@@ -140,6 +140,12 @@
     
     .top_logo {}
     
+    .top_logos {
+        display: flex;
+        /* gap: 8vh; */
+        justify-content: space-between;
+    }
+    
     .flex {
         display: flex;
         justify-content: space-between;
@@ -402,5 +408,10 @@
             grid-column: span 1;
             grid-row: span 1;
             gap: 60px;
+        }
+        .top_logos {
+            gap: 8vh;
+            justify-content: center;
+            flex-wrap: wrap;
         }
     }
