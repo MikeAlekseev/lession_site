@@ -275,6 +275,84 @@
         margin-top: 20px;
     }
     
+    .top_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .information {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
+    
+    .info_mail {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .info_phone {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .info_adress {
+        display: flex;
+        gap: 5%;
+    }
+    
+    .info_title {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .info_text {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .about_store {
+        width: 14%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        gap: 2vh;
+    }
+    
+    .about_store_text {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 250;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        /* #FFFFFF */
+        opacity: 0.6;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 14%;
+    }
+    
+    .icons {
+        display: flex;
+        gap: 2vh;
+    }
+    
     @media(max-width:1024px) {
         .info_flex {
             display: flex;
