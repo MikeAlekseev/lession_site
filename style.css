@@ -660,6 +660,7 @@ a {
     }
     .about_store {
         width: 100%;
+        order: -1;
     }
     .contacts {
         width: 100%;
