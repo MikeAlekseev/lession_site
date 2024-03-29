@@ -585,7 +585,8 @@ a {
         gap: 3vh;
     }
     .img_4block {
-        width: 32%;
+        /* width: 32%; */
+        width: 9vh;
     }
     .title_block {
         color: rgb(255, 255, 255);
